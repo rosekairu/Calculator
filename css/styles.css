@@ -1,7 +1,4 @@
-.col-xs-14 {
-    margin-bottom: 10px;
-    min-height: 150px;
-    background-color: silver;
-    text-align: centre;
-    font-size: medium;
+h1 {
+    text-align: center;
+    font-weight: bolder;
 }
