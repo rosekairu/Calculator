@@ -26,12 +26,12 @@ var add = function(number1, number2) {
   });
 
   $(document).ready(function()  {
-    $("form#subtraction").submit(function(event) {
+    $("form#subtract").submit(function(event) {
         event.preventDefault();
 var number1 = parseInt($("#subtract1").val());
 var number2 = parseInt($("#subtract2").val());
 var result = subtract(number1,number2);
-$("#output").text(result);
+$("#result").text(result);
 
 event.preventDefault();
 }); 
@@ -43,7 +43,7 @@ $(document).ready(function()  {
 var number1 = parseInt($("#multiply1").val());
 var number2 = parseInt($("#multiply2").val());
 var result = multiply(number1,number2);
-$("#output").text(result);
+$("#product").text(result);
 
 event.preventDefault();
 }); 
@@ -55,7 +55,7 @@ $(document).ready(function()  {
 var number1 = parseInt($("#divide1").val());
 var number2 = parseInt($("#divide2").val());
 var result = divide(number1,number2);
-$("#output").text(result);
+$("#outcome").text(result);
 
 event.preventDefault();
 }); 
