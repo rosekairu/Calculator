@@ -3,14 +3,14 @@
 ## Authors
 
 [kahenya-anita](https://github.com/kahenya-anita) and
-[rosekairu] (https://github.com/rosekairu)
+[rosekairu](https://github.com/rosekairu)
 
 ## Description
 
 This is a simple a calculator that takes user's input and outputs the result!
 
 ## Live Page 
-* [https://rosekairu.github.io/Calculator]
+* https://rosekairu.github.io/Calculator
 
 
 ## Installation / Setup instruction
@@ -55,11 +55,11 @@ This is a simple a calculator that takes user's input and outputs the result!
 
 ## Contact Information 
 
-* If you have any question or contributions, please email us at [anitakahenya1@gmail.com] or [rosekairu@gmail.com]
+* If you have any question or contributions, please email us at (anitakahenya1@gmail.com) or (rosekairu@gmail.com)
 
 ## License
 
-* Licenced under [MITLICENCE] (LICENCE).
+* Licenced under [MITLICENCE](LICENCE).
 * Copyright (c) 2020 
   **ANITA KAHENYA** and
   **ROSE KAIRU**

@@ -1,4 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
 h1 {
     text-align: center;
     font-weight: bolder;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.btn {
+    float: left;
+    display: block;
+    width: 30%;
+    padding: 5px;
+    margin-left: 0.1in;
+    background-color: forestgreen;
+    color: ghostwhite;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.mybtn {
+    float: right;
+    display: block;
+    width: 30%;
+    padding: 5px;
+    margin-right: 0.1in;
+    background-color: forestgreen;
+    color: ghostwhite;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#output {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: .1in;
+}
+
+#result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: .1in;
+}
+
+#product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: .1in;
+}
+
+#outcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: .1in;
 }
